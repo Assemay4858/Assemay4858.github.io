@@ -1,0 +1,149 @@
+.banner{ 
+    font-size:xxx-large;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(229, 241, 251);
+    padding-top: 100px;
+    background-image: url("banner2.jpg");
+    background-size:cover;
+    height: 380px;
+    margin-bottom: 20px;
+}
+nav{
+    display: inline-flex;
+}
+a:link { 
+    color: black; 
+}  
+a:hover{
+    color: rgb(95, 94, 94); 
+    border: 2px solid gray;
+}
+a:visited{
+    color:blueviolet;
+    border: 2px solid blueviolet;
+}
+a:active{
+    border: 2px solid blue;
+}
+.menu li{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 150px;
+    margin-left: 0px;
+}
+#main-heading{
+    background-color: rgb(148, 198, 242);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid rgb(61, 122, 176);
+    background-color:rgb(148, 198, 242);
+} 
+* {
+    box-sizing: border-box;
+  }
+#task{
+    float: left;
+    width: 50%;
+    height: 500px; 
+    background: aliceblue;
+    padding: 20px;
+    border: 2px solid white;
+}
+#requirements{
+    float: right;
+    width: 50%;
+    height: 850px; 
+    background: rgb(176, 195, 212);
+    padding: 20px;
+    border: 2px solid white;
+}
+#submission{
+    float: left;
+    width: 50%;
+    height: 550px; 
+    background: rgb(168, 222, 255);
+    padding: 20px;
+    border: 2px solid white;
+    margin-bottom: 15px;
+}
+#grading{
+    float: right;
+    width: 50%;
+    height: 550px; 
+    background: rgb(212, 235, 255);
+    padding: 20px;
+    border: 2px solid white;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 5px;
+  }
+h3[name="aside_section"]{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid rgb(61, 122, 176);
+    background-color:rgb(148, 198, 242);
+}
+#deadline{
+    float: left;
+    width: 50%;
+    height: 269px; 
+    background: white;
+    padding: 20px;
+    border: 2px solid white;
+}
+.aside_content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+article[name="dummy_content"]{
+    background: aliceblue;
+    padding: 20px;
+    border: 2px solid white;
+}
+footer {
+    background-color: rgb(176, 195, 212);
+    padding: 10px;
+    display: block;
+    height: 300px;
+}
+.contacts{
+    float: left;
+    margin-left: 100px;
+}
+.map{
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.categories{
+    float: left;
+    margin-left: 150px;
+}
+.quick_links{
+    float: left;
+    margin-left: 150px;
+}
