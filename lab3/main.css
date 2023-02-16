@@ -1,14 +1,13 @@
 .banner{ 
-    font-size:4em;
+    font-size:xxx-large;
     font-weight: bold;
     text-align: center;
-    color: white;
-    padding-top: 15vh;
+    color: rgb(229, 241, 251);
+    padding-top: 100px;
     background-image: url("banner2.jpg");
     background-size:cover;
-    height: 50vh;
+    height: 380px;
     margin-bottom: 20px;
-    position:relative;
 }
 nav{
     display: inline-flex;
@@ -54,7 +53,7 @@ h2{
     padding: 10px;
     font-size: 25px;
     color: white;
-    border: 0.2em solid rgb(61, 122, 176);
+    border: 2px solid rgb(61, 122, 176);
     background-color:rgb(148, 198, 242);
 } 
 * {
@@ -63,38 +62,38 @@ h2{
 #task{
     float: left;
     width: 50%;
-    height: 600px; 
+    height: 500px; 
     background: aliceblue;
     padding: 20px;
-    border: 0.1em solid white;
+    border: 2px solid white;
 }
 #requirements{
     float: right;
     width: 50%;
-    height: 950px; 
+    height: 850px; 
     background: rgb(176, 195, 212);
     padding: 20px;
-    border: 0.1em solid white;
+    border: 2px solid white;
 }
 #submission{
     float: left;
     width: 50%;
-    height: 650px; 
+    height: 550px; 
     background: rgb(168, 222, 255);
     padding: 20px;
-    border: 0.1em solid white;
+    border: 2px solid white;
     margin-bottom: 15px;
 }
 #grading{
     float: right;
     width: 50%;
-    height: 600px; 
+    height: 550px; 
     background: rgb(212, 235, 255);
     padding: 20px;
-    border: 0.1em solid white;
+    border: 2px solid white;
 }
 table, th, td {
-    border: 0.1em solid;
+    border: 1px solid;
     padding: 5px;
   }
 h3[name="aside_section"]{
@@ -104,7 +103,7 @@ h3[name="aside_section"]{
     padding: 10px;
     font-size: 25px;
     color: white;
-    border: 0.1em solid rgb(61, 122, 176);
+    border: 2px solid rgb(61, 122, 176);
     background-color:rgb(148, 198, 242);
 }
 #deadline{
@@ -113,7 +112,7 @@ h3[name="aside_section"]{
     height: 269px; 
     background: white;
     padding: 20px;
-    border: 0.1em solid white;
+    border: 2px solid white;
 }
 .aside_content::after {
     content: "";
@@ -123,12 +122,13 @@ h3[name="aside_section"]{
 article[name="dummy_content"]{
     background: aliceblue;
     padding: 20px;
-    border: 0.1em solid white;
+    border: 2px solid white;
 }
 footer {
     background-color: rgb(176, 195, 212);
     padding: 10px;
     display: block;
+    height: 300px;
 }
 .contacts{
     float: left;
@@ -146,64 +146,4 @@ footer {
 .quick_links{
     float: left;
     margin-left: 150px;
-}
-#imagetask {
-    max-width: 100%;
-    height: auto;
-    position:relative;
-}
-#photo
-{
-    max-width: 100%;
-    height: auto;
-    position:relative;
-    margin-left:auto;
-    margin-right:auto;
-}
-@media screen and (max-width: 767px) {
-    .banner{
-        font-size:3em;
-        font-weight: bold;
-        color: black;
-        padding-top: 7vh;
-        height: 40vh;
-    }
-    #task, #requirements, #submission, #grading, #deadline{
-        width: 100%;
-    }
-    .menu a {
-        clear:both;
-        display:block;
-        border: 0.1em solid wheat;
-        background-color: rgb(148, 198, 242);
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-    }
-    .categories a{
-        clear: both;
-        display: block;
-        text-align: center;
-    }
-    .quick_links a{
-        clear: both;
-        display: block;
-        text-align: center;
-    }
-    img {
-        max-width: fit-content;
-        height: auto;
-    }
-    .contacts, .map, .categories, .quick_links{
-        display: flex;
-    }
-}
-@media screen and (min-width: 768px){
-    p {
-        font: size 2em;
-    }
-    img {
-        max-width: fit-content;
-        height: auto;
-    } 
 }
